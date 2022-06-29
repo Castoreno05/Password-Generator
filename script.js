@@ -9,11 +9,34 @@ var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var specialCharacters = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "\ ", "]", "^", "_", "`", "{", "|", "}", "~", '"'];
-
 // console.log(uppercase);
 
+
+function userInput() {
+
+  var pwdLength = window.prompt("Input a number for the length of the password (Between 8 - 128 characters)");
+  var bigLetters = confirm("Do you want UPPERCASE characters included?");
+  var smallLetters = confirm("Do you want LOWERCASE characters included?");
+  var uniqueCharacters = confirm("Do you want SPECIAL CHARACTERS included?");
+  var userNumbers = confirm("Do you want NUMBERS included?");
+
+
+  var randomGenerator = {
+
+    password: pwdLength,
+    upper: bigLetters,
+    lower: smallLetters,
+    numbers: userNumbers,
+    special: uniqueCharacters
+
+  }
+  console.log(randomGenerator);
+  return randomGenerator;
+
+}
+
 function generatePassword() {
-  var generate = userInput()
+  var generate = userInput();
 
 
 
