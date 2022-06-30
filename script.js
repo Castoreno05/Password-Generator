@@ -50,7 +50,7 @@ function generatePassword() {
     // The random uppercase length that is generated is placed in the randomUpper variable
     var randomUpper = [Math.floor(Math.random() * uppercase.length)];
     // console.log() to verify the random generation of uppercase.
-    console.log(randomUpper);
+    // console.log(randomUpper);
   }
 
   if(generator.lower){
