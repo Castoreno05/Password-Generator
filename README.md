@@ -53,4 +53,4 @@ Matthew Castoreno <matthew.castoreno@yahoo.com>
 
 # Demo 
 
-Demo to the Password-Generator moduel https://castoreno05.github.io/Password-Generator/
+Demo to the Password-Generator module https://castoreno05.github.io/Password-Generator/
