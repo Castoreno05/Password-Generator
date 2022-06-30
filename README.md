@@ -40,7 +40,7 @@ If you want numbers select "OK"
 
 
 
-With the input of the length of the password and all the prompts. The Password-Generator displays your new password!
+With the input of the length of the password and all the prompts answered. The Password-Generator displays your new password!
 ![Password-Generator](./images/Generated%20Password.PNG)
 
 ---
