@@ -42,6 +42,7 @@ function generatePassword() {
   var generator = userInput();
   // How to randomly choose password criteria? Use array methods to combine all arryays into one array.
   var megaArray = [];
+  // Create a string set equal to password var.
   var pwd = "";
   
   if(generator.upper){
@@ -55,6 +56,7 @@ function generatePassword() {
 
   if(generator.lower){
     megaArray = megaArray.concat(lowercase);
+    // Randomly choose characters
     var randomLower = [Math.floor(Math.random() * lowercase.length)];
   }
 
@@ -101,6 +103,6 @@ generateBtn.addEventListener("click", writePassword);
 // if(numbers){
 
 //}
- // Randomly choose characters
- // Create a string set equal to password var.
+ 
+ 
 
