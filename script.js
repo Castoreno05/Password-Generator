@@ -4,6 +4,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Assignment code here
 
+// List of numbers, special characters, uppercase and lowercase in arrays
 // Use for a loop to randonly select from the arrays
 var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -13,7 +14,7 @@ var specialCharacters = ["!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", 
 
 
 function userInput() {
-
+  // create var to hold answer to prompt/confirm.
   var pwdLength = prompt("Input a number for the length of the password (Between 8 - 128 characters)");
   // Conformation returns true if user selects the following.
   var bigLetters = confirm("Do you want UPPERCASE characters included?");
@@ -39,6 +40,7 @@ function userInput() {
 function generatePassword() {
   // userInput is placed in the generator variable and is used in the if statements 
   var generator = userInput();
+  // How to randomly choose password criteria? Use array methods to combine all arryays into one array.
   var megaArray = [];
   var pwd = "";
   
@@ -87,29 +89,18 @@ generateBtn.addEventListener("click", writePassword);
 
 
 // PsuedoCode
-
 // prompt = length (8-128 characters)
-
-
-
-// 6-26
-
   // console.log(passwordLength);
 // conformation = lowercase, uppercase, numeric, and special characters.
 //  Variables that are used to generate a password
-
 // Need to look for a confirm syntax for JS on the web.
   // let numbers = confirm("Do you want numbers");
 // look for a confimred 
-// create var to hold answer to prompt/confirm.
 // Need a function to validate users answers.
 // Need to check the values of the value to see if its equal to what i need. Use if and equality operators.
 // if(numbers){
 
 //}
-// List of numbers, special characters, uppercase and lowercase
- // array
- // How to randomly choose password criteria? Use array methods to combine all arryays into one array.
  // Randomly choose characters
  // Create a string set equal to password var.
 
