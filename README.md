@@ -47,7 +47,7 @@ With the input of the length of the password and all the prompts answered. The P
 
 # Contributors
 
-Matthew Castoreno <matthew.castoreno>
+Matthew Castoreno <matthew.castoreno@yahoo.com>
 
 ---
 
